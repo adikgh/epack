@@ -1,0 +1,120 @@
+/*  */
+.table {
+	position: relative;
+	max-width: 100%;
+	width: 100%;
+	border-collapse: collapse;
+}
+.thead{
+	position: relative;
+	width: 100%;
+	color: var(--wh);
+  	background: var(--cl);
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: stretch;
+}
+.th {
+	width: 25%;
+  	padding: 15px 10px;
+  	font-size: 12px;
+  	font-weight: 400;
+  	text-transform: uppercase;
+}
+.gr5 .th{
+	width: 20%;
+}
+
+
+/*  */
+table{
+	position: relative;
+	width: 100%;
+  	border: 1px dashed var(--cl);
+  	border-top: 0;
+}
+tbody{}
+tr{
+	position: relative;
+	width: 100%;
+}
+td{
+	width: 25%;
+ 	padding: 15px 10px;
+  	transition: var(--tm);
+  	border: 1px dashed var(--cl5);
+  	border-top: 0;
+  	border-right: 0;
+  	color: var(--bl);
+  	text-align: center;
+}
+.gr5 td{width:20%}
+.tdp{text-align:right}
+.tdbl0{border-left:0}
+tr:last-child td{border-bottom:0}
+tr:nth-last-child(2) .tdbb02{border-bottom:0}
+tr:nth-last-child(3) .tdbb03{border-bottom:0}
+tr:nth-last-child(6) .tdbb06{border-bottom:0}
+
+
+
+
+
+
+.prm{
+	position: relative;
+	width: 100%;
+	padding-top: 120px;
+	display: none;
+}
+.prm_c{
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.prm_i{
+	position: relative;
+	padding: 30px;
+}
+
+
+
+
+
+
+/*  */
+.prb1{
+	position: relative;
+	width: 100%;
+	padding-top: 120px;
+}
+@media (max-width: 480px) {
+	.prb1 .bl_c{width: 100% !important}
+}
+
+.prb1_c{
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.prb1_cb{display:block}
+
+
+.prb1_cl{
+	position: relative;
+	width: 50%;
+}
+.prb1_cr{
+	position: relative;
+	width: 50%;
+}
+@media (max-width: 768px) {
+	.prb1_cl, .prb1_cr{
+		width: 100%;
+	}
+}

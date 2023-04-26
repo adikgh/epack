@@ -1,0 +1,41 @@
+/*  */
+.pbl1{
+	position: relative;
+	width: 100%;
+	padding-top: 80px;
+}
+
+.pbl1_img{
+	position: relative;
+	width: 100%;
+	height: 360px;
+	background-color: var(--cl1);
+	background-size: auto 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+.pbl1_name{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+
+
+/*  */
+.pbl2{
+	position: relative;
+	width: 100%;
+}
+.pbl2 .head_c{
+	padding-top: 30px;
+}
+.pbl2_c{
+	position: relative;
+	width: 100%;
+	overflow-y: auto;
+}
